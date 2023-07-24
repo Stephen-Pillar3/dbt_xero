@@ -4,7 +4,7 @@ config-version: 2
 require-dbt-version: [">=1.3.0", "<2.0.0"]
 vars:
   xero_source:
-    union_databases: ['xero_us','xero_ca']
+    union_databases: ['pdabirmingham','pdapellcity']
   xero:
     account: "{{ ref('stg_xero__account') }}"
     contact: "{{ ref('stg_xero__contact') }}"
